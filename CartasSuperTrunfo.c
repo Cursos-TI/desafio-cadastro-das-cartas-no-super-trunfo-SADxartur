@@ -1,22 +1,26 @@
-#include <stdio.h>
+# include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+ int main (){
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    char cartaBrasil;
+    char cartaEUA;
+    char cartaRussia;
+    char Usuario;
 
-    return 0;
-}
+    printf("deseja ver carta Brasil\n");
+    scanf("%s", &cartaBrasil);
+   printf("Pais:  Brasil  populaçao:216.4 Milhoes Km:8.515.767,049  Presidente atual:Luiz Inácio Lula da Silva\n");
+   printf("gostaria acessar mais cartas ?\n");
+   scanf("%s", &Usuario);
+   printf("gostaria de acessar a carta EUA ? \n");
+   scanf("%s", &cartaEUA);
+   printf("Pais: EUA  populaçao:334,9 Milhoes Km:9.229 Presidente atual: Donald J. Trump\n ");
+   printf("gostaria acessar mais cartas ?\n");
+   scanf("%s", &Usuario);
+   printf("deseja acessar carta Russia ?\n");
+   scanf("%s", &Usuario);
+   printf("Pais: Russia  populaçao:143,8 Milhoes Km:15.230 Presidente atual:Vladimit Putin\n");
+   printf("gostaria de acessar mais cartas ?\n");
+   scanf("%s", &Usuario);
+   printf("desculpa essas foram todas as cartas :)\n");
+ }
