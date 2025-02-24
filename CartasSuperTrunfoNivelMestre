@@ -1,0 +1,88 @@
+# include <stdio.h>
+
+ int main (){
+
+    char cartaBrasil;
+    char cartaEUA;
+    char cartaRussia;
+    char Usuario;
+    int brasil;
+    int russia;
+    int eua;
+    int brasilPib;
+    int russiaPib;
+    int euaPib;
+
+    brasilPib =1.52; 
+    russiaPib = 8.51;
+    euaPib = 370;
+    brasil = 23.86;
+    russia = 143;
+    russia = 143;
+    
+
+    printf("deseja ver carta Brasil\n");
+    scanf("%s", &cartaBrasil);
+   printf("Pais:  Brasil  populaçao:216.4 Milhoes Km:8.515.767,049  Presidente atual:Luiz Inácio Lula da Silva\n");
+   printf("gostaria acessar mais cartas ?\n");
+   scanf("%s", &Usuario);
+   printf("gostaria de acessar a carta EUA ? \n");
+   scanf("%s", &cartaEUA);
+   printf("Pais: EUA  populaçao:334,9 Milhoes Km:9.229 Presidente atual: Donald J. Trump\n ");
+   printf("gostaria acessar mais cartas ?\n");
+   scanf("%s", &Usuario);
+   printf("deseja acessar carta Russia ?\n");
+   scanf("%s", &Usuario);
+   printf("Pais: Russia  populaçao:143,8 Milhoes Km:15.230 Presidente atual:Vladimit Putin\n");
+   printf("gostaria de acessar mais cartas ?\n");
+   scanf("%s", &Usuario);
+   printf("desculpa essas foram todas as cartas :)\n");
+   printf("mas podemos comparar elas\n");
+   printf("que tal ?\n");
+   scanf("%s", &Usuario);
+   printf("que bom mas para eu me comunicar eu irei utilizar os numeros 0 a 1\n");
+   printf("0 sendo falso e 1 sendo verdadeiro\n");
+   printf("pode ser ?\n");
+   scanf("%s", &Usuario);
+    printf("vamos começar comparando suas densidades populares usando brasil e russia,o menor valor e o correto\n");
+    
+    russia = 8.9;
+     brasil = 23.86;
+    printf("brasil > russia %d\n",brasil > russia);
+   printf("parece que a informaçao esta falsa\n");
+   printf("espere que eu vou consertar\n");
+   printf("'Barulhos de ferramentas'\n");
+   printf("Ufa,acho que eu ajeitei vamos testar denovo\n");
+
+   eua =  33.22;
+   russia = 8.9;
+   brasil = 23.86;
+  printf("brasil < russia %d\n",brasil < russia);
+   printf("deu certo\n");
+   printf("sem demora,vamos ver com o brasil e EUA\n");
+   scanf("%d", &Usuario);
+   printf("brasil < eua: %d\n",brasil < eua);
+   printf("a informaçao esta certa\n");
+   printf("vamos testar para finalizar eua e russia\n");
+   printf("eua > russia: %d\n",eua > russia);
+   printf("agora,vamos exibir os resultados das cartas com base em sua area\n");
+
+   brasil =  1.52;
+   russia = 370;
+   if (brasil > russia) {
+    printf("brasil e maior que a russia\n");
+  }else {
+    printf("russia e maior que o brasil\n");
+
+  }
+
+
+  brasil =  1.52;
+  eua = 8.51;
+  if (brasil > eua) {
+   printf("brasil e maior que a eua\n");
+ }else {
+   printf("eua e maior que o brasil\n");
+
+ }
+ }
