@@ -1,0 +1,120 @@
+#include <stdio.h>
+int main(){
+
+float Brasil, EUA, Russia, certo;    
+int opçao;
+int resultado;
+
+
+
+printf("menu de escolhas\n");
+printf("1.cartas disponiveis\n");
+printf("2.atributos de cada carta\n");
+printf("3.comparador\n");
+printf("escolher opçoes\n");
+scanf("%d", &opçao);
+
+switch (opçao)
+{
+
+ case 1:
+ 
+   printf("Carta Brasil\n"); 
+   printf("Carta EUA\n");
+   printf("Carta Russia\n");
+   break;
+
+
+  case 2:
+   
+   printf("Carta Brasil\n");
+   printf("Populaçao: 211,1 milhoes\n");
+   printf("area: 8,510 km\n");
+   printf("PIB: 2,174 trilhoes\n");
+   printf("Pontos turisticos: mais de 20\n");
+   printf("Densidade demografica: 23,86 habitantes\n");
+   
+   printf("Carta EUA\n");
+   printf("Populaçao: 340,1 milhoes\n");
+   printf("area: 9,148 km\n");
+   printf("PIB: 27,72\n");
+   printf("Pontos turisticos: mais de 8\n");
+   printf("Densidade demografica: 33,22 habitantes\n");
+   
+   printf("Carta Russia\n");
+   printf("Populaçao: 143,60 milhões\n");
+   printf("area: 17,124 km\n");
+   printf("PIB: 2,021 trilhões\n");
+   printf("Ponto turisticos: mais de 10\n");
+   printf("Densidade demografica: 8,9 habitantes");
+   break;
+   case 3:
+  
+
+  printf("Carta Brasil\n");
+  printf("////////////////\n");
+   printf("Populaçao: 211,1 milhoes\n");
+   printf("////////////////\n");
+   printf("area: 8,510 km\n");
+   printf("////////////////\n");
+   printf("////////////////\n");
+   printf("PIB: 2,174 trilhoes\n");
+   printf("////////////////\n");
+   printf("Pontos turisticos: mais de 20\n");
+   printf("////////////////");
+   printf("Densidade demografica: 23,86 habitantes\n");
+   printf("////////////////\n");
+   /////// para simplificar eu juntei todos os atributos colocados menos a densidade demografica /////
+   printf("resultado: 22.174 \n");
+} printf("////////////////\n");
+
+  printf("Carta Russia\n");
+  printf("////////////////\n");
+  printf("Populaçao: 143,60 milhões\n");
+  printf("////////////////\n");
+  printf("area: 17,124 km\n");
+  printf("////////////////\n");
+  printf("PIB: 2,021 trilhões\n");
+  printf("////////////////\n");
+  printf("Ponto turisticos: mais de 10\n");
+  printf("////////////////\n");
+  printf("Densidade demografica: 8,9 habitantes\n");
+  printf("////////////////\n");
+  printf("resultado: 29.145\n");
+  printf("////////////////\n");
+  printf("Carta EUA\n");
+  printf("////////////////\n");
+   printf("Populaçao: 340,1 milhoes\n");
+   printf("////////////////\n");
+   printf("area: 9,148 km\n");
+   printf("////////////////\n");
+   printf("PIB: 27,72\n");
+   printf("Pontos turisticos: mais de 8\n");
+   printf("////////////////\n");
+   printf("Densidade demografica: 33,22 habitantes\n");
+   printf("////////////////\n");
+   printf("resultado: 348,968 \n");
+   printf("////////////////\n");
+   printf("com essas informaçoes a carta mais forte ? e a carta EUA ?\n");
+   printf("////////////////\n");
+   printf("y = 0 // 1 = n:\n");
+   scanf("%d", &resultado);
+   if (resultado <= 1  && resultado <= 0 ){
+    printf("ACERTOU!");
+  }else{
+    printf("ERROU!\n");
+  }
+}
+
+   
+   
+      
+         
+          
+    
+
+
+ 
+
+
+
