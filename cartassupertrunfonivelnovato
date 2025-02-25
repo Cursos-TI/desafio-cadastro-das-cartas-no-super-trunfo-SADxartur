@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int main(){
+
+float Populaçao = 211;
+float populaçao = 340;
+float Area = 8.51;
+float area = 9.14;
+float PIB = 2.174;
+float PIB2 = 27.72;
+float resultado;
+float resultado2;
+float Resultado;
+float Resultado2;
+resultado  = Populaçao  / Area;
+resultado2  = Populaçao / PIB;
+Resultado = populaçao / area;
+Resultado2 = populaçao / PIB2;
+printf("Carta Brasil\n");
+   printf("Populaçao: 211,1 milhoes\n");
+   printf("area: 8,510 km\n");
+   printf("PIB: 2,174 trilhoes\n");
+   printf("Pontos turisticos: mais de 20\n");
+   printf("Densidade demografica: 23,86 habitantes\n");
+   printf("////////////////////////////////////////////////////\n");
+   printf("Carta EUA\n");
+   printf("Populaçao: 340,1 milhoes\n");
+   printf("area: 9,148 km\n");
+   printf("PIB: 27,72\n");
+   printf("Pontos turisticos: mais de 8\n");
+   printf("Densidade demografica: 33,22 habitantes\n");
+   printf("////////////////////////////////////////////////////\n");
+   printf("Dividindo a area junto com a populaçao da carta Brasil e :%f\n",resultado);
+   printf("////////////////////////////////////////////////////\n");
+   printf("Dividindo o PIB junto com a populaçao da carta Brasil e :%f\n",resultado2);
+   printf("////////////////////////////////////////////////////\n");
+   printf("Dividindo a area junto com a populaçao da carta EUA e :%f\n",Resultado);
+   printf("Dividindo o PIB junto com a populaçao da carta EUA e :%f\n",Resultado2);
+   printf("////////////////////////////////////////////////////\n");
+   printf("populaçao dividido pela area da carta Brasil e menor comparado a carta EUA\n");
+   printf("PIB dividido pela populaçao da carta Brasil e maior comparado a carta EUA\n");
+   printf("////////////////////////////////////////////////////\n");
+   printf("Comparando suas densidades o EUA ganha ja que ele tem um menor densidade\n");
+
+
+
+}
